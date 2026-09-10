@@ -1,0 +1,33 @@
+import { SymbolItem } from './greekAlphabet';
+
+export const RARE_PHYSICS_SYMBOLS: SymbolItem[] = [
+  { id: 'aleph', symbol: 'ℵ', unicode: 'U+2135', name: 'Aleph', description: 'Cardinality of infinite sets', latex: '\\aleph' },
+  { id: 'beth', symbol: 'ℶ', unicode: 'U+2136', name: 'Beth', description: 'Cardinal number sequence', latex: '\\beth' },
+  { id: 'weierstrass-p', symbol: '℘', unicode: 'U+2118', name: 'Weierstrass p', description: 'Elliptic functions', latex: '\\wp' },
+  { id: 'hbar', symbol: 'ℏ', unicode: 'U+210F', name: 'Reduced Planck (h-bar)', description: 'Quantum constant ħ = h / 2π', latex: '\\hbar' },
+  { id: 'script-l', symbol: 'ℓ', unicode: 'U+2113', name: 'Script l', description: 'Angular momentum quantum number, length', latex: '\\ell' },
+  { id: 'tensor-product', symbol: '⊗', unicode: 'U+2297', name: 'Tensor Product', description: 'Tensor / Kronecker product', latex: '\\otimes' },
+  { id: 'direct-sum', symbol: '⊕', unicode: 'U+2295', name: 'Direct Sum / XOR', description: 'Direct sum or exclusive OR', latex: '\\oplus' },
+  { id: 'circled-dot', symbol: '⊙', unicode: 'U+2299', name: 'Circled Dot', description: 'Hadamard product, or Sun (astronomy)', latex: '\\odot' },
+  { id: 'circled-asterisk', symbol: '⊛', unicode: 'U+229B', name: 'Circled Asterisk', description: 'Convolution operator', latex: '\\circledast' },
+  { id: 'left-semidirect', symbol: '⋉', unicode: 'U+22C9', name: 'Left Semidirect Product', description: 'Group theory semidirect product', latex: '\\ltimes' },
+  { id: 'right-semidirect', symbol: '⋊', unicode: 'U+22CA', name: 'Right Semidirect Product', description: 'Group theory semidirect product', latex: '\\rtimes' },
+  { id: 'defined-as', symbol: '≜', unicode: 'U+225C', name: 'Defined As', description: 'Equal by definition', latex: '\\triangleq' },
+  { id: 'eqdef-alt', symbol: '≝', unicode: 'U+225D', name: 'Equal by Definition (alt)', description: 'Equal by definition (alternative)', latex: '\\eqdef' },
+  { id: 'questioned-equal', symbol: '≟', unicode: 'U+225F', name: 'Questioned Equal To', description: 'Tested or queried equality', latex: '\\questeq' },
+  { id: 'models-entails', symbol: '⊨', unicode: 'U+22A8', name: 'Models / Entails', description: 'Semantic entailment in logic', latex: '\\models' },
+  { id: 'end-of-proof', symbol: '∎', unicode: 'U+220E', name: 'End of Proof (Q.E.D.)', description: 'Tombstone symbol', latex: '\\blacksquare' },
+  { id: 'nary-tensor', symbol: '⨂', unicode: 'U+2A02', name: 'N-ary Tensor Product', description: 'Large tensor product over set', latex: '\\bigotimes' },
+  { id: 'nary-direct-sum', symbol: '⨁', unicode: 'U+2A01', name: 'N-ary Direct Sum', description: 'Large direct sum / coproduct', latex: '\\bigoplus' },
+  { id: 'right-angle-shape', symbol: '⊾', unicode: 'U+22BE', name: 'Right Angle', description: 'Geometry right angle symbol', latex: '\\measuredangle' },
+  { id: 'measured-angle', symbol: '∡', unicode: 'U+2221', name: 'Measured Angle', description: 'Measured angle notation', latex: '\\measuredangle' },
+  { id: 'set-complement', symbol: '∁', unicode: 'U+2201', name: 'Complement (set)', description: 'Set complement operator', latex: '\\complement' },
+  { id: 'mho', symbol: '℧', unicode: 'U+2127', name: 'Mho', description: 'Unit of electrical conductance (inverse ohm)', latex: '\\mho' },
+  { id: 'transpose', symbol: '⊺', unicode: 'U+22BA', name: 'Transpose (matrix)', description: 'Matrix transpose intercal', latex: '\\intercal' },
+  { id: 'dagger', symbol: '†', unicode: 'U+2020', name: 'Dagger', description: 'Hermitian conjugate in quantum mechanics', latex: '\\dagger' },
+  { id: 'bra-bracket', symbol: '⟨', unicode: 'U+27E8', name: 'Left Angle Bracket (Bra)', description: 'Bra vector ⟨ψ| in quantum mechanics', latex: '\\langle' },
+  { id: 'ket-bracket', symbol: '⟩', unicode: 'U+27E9', name: 'Right Angle Bracket (Ket)', description: 'Ket vector |ψ⟩ in quantum mechanics', latex: '\\rangle' },
+  { id: 'pitchfork', symbol: '⋔', unicode: 'U+22D4', name: 'Pitchfork', description: 'Transversal intersection in geometry', latex: '\\pitchfork' },
+  { id: 'average-integral', symbol: '⨍', unicode: 'U+2A0D', name: 'Principal Value Integral', description: 'Slanted dash / average integral', latex: '\\fint' },
+  { id: 'angstrom', symbol: 'Å', unicode: 'U+212B', name: 'Angstrom', description: 'Physics length unit (10⁻¹⁰ m)', latex: '\\text{\\AA}' }
+];
