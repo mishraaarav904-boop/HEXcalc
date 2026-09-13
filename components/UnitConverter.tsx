@@ -42,7 +42,7 @@ export const UnitConverter: React.FC<UnitConverterProps> = ({ onCopySymbol }) =>
           <div>
             <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100">Scientific Unit Converter</h2>
             <p className="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
-              Instant conversion matrix across fundamental SI and scientific units.
+              Convert between common SI and scientific units.
             </p>
           </div>
         </div>

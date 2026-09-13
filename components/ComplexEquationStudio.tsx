@@ -94,7 +94,7 @@ export const ComplexEquationStudio: React.FC<ComplexEquationStudioProps> = ({ on
             Equations & Reference
           </h2>
           <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
-            Quick-copy standard calculus, physics, and math formulas with KaTeX typesetting and live parametric evaluation.
+            Copy common calculus, physics, and math formulas, or evaluate them for a given value.
           </p>
         </div>
       </div>
@@ -105,10 +105,10 @@ export const ComplexEquationStudio: React.FC<ComplexEquationStudioProps> = ({ on
           <div>
             <h3 className="text-base font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
               <BookOpen className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-              Essential Calculus, Physics & Math Equations
+              Calculus, Physics & Math Equations
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400">
-              One-click quick copy in LaTeX or plain Unicode format.
+              Copy any formula as LaTeX or plain Unicode.
             </p>
           </div>
 
@@ -253,10 +253,10 @@ export const ComplexEquationStudio: React.FC<ComplexEquationStudioProps> = ({ on
           <div>
             <h3 className="text-base font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
               <Layers className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-              High-Precision Parametric Sequences A(k), B(k), R(k)
+              Parametric Sequences A(k), B(k), R(k)
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400">
-              Trigonometric sequence modulation with high-power harmonic envelopes.
+              Enter an index k to evaluate each trigonometric sequence.
             </p>
           </div>
           <span className="text-xs font-mono text-slate-500">3 Formulas</span>

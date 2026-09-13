@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'matrix' as TabType, label: 'Matrix & Vectors', icon: Grid3X3 },
     { id: 'space' as TabType, label: 'Space & Rocketry', icon: Rocket },
     { id: 'thermodynamics' as TabType, label: 'Thermodynamics', icon: Flame },
-    { id: 'studio' as TabType, label: 'Equation Studio', icon: Sigma },
+    { id: 'studio' as TabType, label: 'Equations', icon: Sigma },
     { id: 'symbols' as TabType, label: 'Symbols', icon: BookOpen },
     { id: 'constants' as TabType, label: 'Physics Constants', icon: Atom },
     { id: 'converter' as TabType, label: 'Unit Converter', icon: Calculator },
@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <h1 className="text-sm font-bold tracking-tight text-slate-900 dark:text-slate-100">
                 HEXcalc
               </h1>
-              <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">Engineering & Math Suite</p>
+              <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">Engineering & math tools</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                       : tab.id === 'thermodynamics'
                       ? 'Thermo'
                       : tab.id === 'studio'
-                      ? 'Studio'
+                      ? 'Eqns'
                       : tab.id === 'symbols'
                       ? 'Symbols'
                       : tab.id === 'constants'
