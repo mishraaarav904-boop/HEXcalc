@@ -39,8 +39,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="font-mono">∑</span>
             </div>
             <div>
-              <h1 className="text-sm font-bold tracking-tight text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
-                HEXcalc <span className="text-[10px] px-1.5 py-0.5 rounded bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800 font-mono font-medium">v2.0</span>
+              <h1 className="text-sm font-bold tracking-tight text-slate-900 dark:text-slate-100">
+                HEXcalc
               </h1>
               <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">Engineering & Math Suite</p>
             </div>

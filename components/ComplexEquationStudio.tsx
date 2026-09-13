@@ -91,7 +91,7 @@ export const ComplexEquationStudio: React.FC<ComplexEquationStudioProps> = ({ on
         <div>
           <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2.5">
             <Sigma className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-            Equation Studio & Reference
+            Equations & Reference
           </h2>
           <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
             Quick-copy standard calculus, physics, and math formulas with KaTeX typesetting and live parametric evaluation.

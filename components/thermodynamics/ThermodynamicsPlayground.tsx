@@ -75,7 +75,7 @@ export const ThermodynamicsPlayground: React.FC<ThermodynamicsPlaygroundProps> =
           </div>
           <div>
             <h1 className="text-lg font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-              Thermodynamics Suite
+              Thermodynamics
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400">
               PVT state equations, heat engines, conduction, phase boundaries, molecular dynamics, and Stirling mechanics.
