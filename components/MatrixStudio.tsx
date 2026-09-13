@@ -454,7 +454,7 @@ export const MatrixStudio: React.FC = () => {
           </div>
           <div>
             <h1 className="text-lg font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-              Matrix & Linear Algebra Studio
+              Matrix & Linear Algebra
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400">
               Determinants, inverses, linear systems, eigenvalues, 2D transformations, and 3D vector algebra.
